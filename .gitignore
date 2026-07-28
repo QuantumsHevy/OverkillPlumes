@@ -1,0 +1,14 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vs/
+.vscode/
+*.swp
+*.swo
+
+# Local packaging output (built when preparing a release zip)
+*.zip
+/dist/
