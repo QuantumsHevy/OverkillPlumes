@@ -1,15 +1,13 @@
 # Overkill Plumes
 
-Waterfall plume overrides that aim for hard-sci-fi-accurate exhaust plumes. Mainly just ModuleManager patches and custom Waterfall templates.
+Waterfall plume overrides for some Far Future Technologies engines that aim for hard-sci-fi-accurate nuclear and antimatter exhaust plumes. Mainly just ModuleManager patches and custom Waterfall templates.
 
-<!--
 ## Dependencies
 
-These mods are **required** for Overkill Plumes to run! There is no CKAN support yet; you'll need to install each one (and their own dependencies) before installing this mod in order for the mod to work.
+These mods are **required** for Overkill Plumes to run! There is no CKAN support yet; you'll need to install each one (and their own dependencies) before installing this mod in order for it to work.
 
 - [Far Future Technologies](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
-  - Ships Waterfall and ModuleManager as its own dependencies.
--->
+  - A new Overkill plume is currrently only applied to the X-2 'Heinlen' NSWR engine. FFT also ships both Waterfall and ModuleManager as its own dependencies.
 
 ## Installation
 This mod is not yet in a usable state! Leaving it installed may interfere with, replace, or delete the existing plume(s) in-game. If you installed this early, please remove it until a usable state is announced or a release is made.
@@ -40,10 +38,11 @@ KerbalSpaceProgram/
 ## Credits
 
 - **[QuantumsHevy](https://github.com/QuantumsHevy)**, original mod author
-- **[Nertea](https://github.com/ChrisAdderley)**, author of [Far Future Technologies](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
 
 ## License
 
-This work is licensed under the Creative Commons [Attribution-NonCommercial-ShareAlike 4.0 International License](./LICENSE) (CC BY-NC-SA 4.0)
+Copyright © 2026 Quantums Hevy
 
-This license covers only the original patch files authored in this repository. It does not grant rights to any Far Future Technologies assets or configs that these patches target. Those remain the property of their original author(s) under FFT's own All Rights Reserved license.
+This work is licensed under the [GNU General Public License v3.0.](./COPYING) (GPL-3.0). 
+
+This project contains patches and configuration files intended for use with other third-party mods like Far Future Technologies and Waterfall. No ownership of those projects or their assets is claimed, and nothing in this repository alters or supersedes their respective licenses.
