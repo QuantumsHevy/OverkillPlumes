@@ -7,7 +7,7 @@ Waterfall plume overrides for some Far Future Technologies engines that aim for 
 These mods are **required** for Overkill Plumes to run! There is no CKAN support yet; you'll need to install each one (and their own dependencies) before installing this mod in order for it to work.
 
 - [Far Future Technologies](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
-  - A new Overkill plume is currrently only applied to the X-2 'Heinlen' NSWR engine. FFT also ships both Waterfall and ModuleManager as its own dependencies.
+  - A new Overkill plume is currrently only applied to the X-42 'Niven' NSWR engine. FFT also ships both Waterfall and ModuleManager as its own dependencies.
 
 ## Installation
 This mod is not yet in a usable state! Leaving it installed may interfere with, replace, or delete the existing plume(s) in-game. If you installed this early, please remove it until a usable state is announced or a release is made.
