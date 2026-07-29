@@ -10,10 +10,7 @@ These mods are **required** for Overkill Plumes to run! There is no CKAN support
   - A new Overkill plume is currrently only applied to the X-42 'Niven' NSWR engine. FFT also ships both Waterfall and ModuleManager as its own dependencies.
 
 ## Installation
-This mod is not yet in a usable state! Leaving it installed may interfere with, replace, or delete the existing plume(s) in-game. If you installed this early, please remove it until a usable state is announced or a release is made.
-
-<!--
-Once a release is published (or when a usable state is announced here), paste the `OverkillPlumes` folder into your KSP `GameData` folder alongside any dependencies.
+Download the ZIP file from this repository and extract it. The extracted folder have another folder within that is named `OverkillPlumes`. Drag ONLY that folder inside your KSP installation's `GameData` folder (to go along with any other mods you have).
 
 When done correctly, the path should look like this:
 ```
@@ -27,7 +24,6 @@ KerbalSpaceProgram/
     ├── YourOtherMods/
     └── ...
 ```
--->
 
 <!--
 ## Known Issues
