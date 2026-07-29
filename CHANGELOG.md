@@ -3,7 +3,7 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 
 ## v0.1.0
 ### Added
-- Added a work-in-progress Overkill vaccum plume for the X-42 'Niven' Nuclear Salt Water Rocket Engine.
+- Added a (vaccum only) Overkill plume for the X-42 'Niven' and the X-2 'Heinlein' Nuclear Salt Water Rocket Engines.
 <!--
 ### Fixed
 - 
