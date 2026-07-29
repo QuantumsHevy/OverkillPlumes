@@ -26,7 +26,7 @@ jobs:
 
       - name: Copy docs into mod folder
         run: |
-          for f in README.md LICENSE CHANGELOG.md; do
+          for f in README.md COPYING CHANGELOG.md; do
             [ -f "$f" ] && cp "$f" GameData/OverkillPlumes/ || echo "Skipping $f (not found at repo root)"
           done
 
