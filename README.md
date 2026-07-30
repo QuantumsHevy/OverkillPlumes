@@ -29,7 +29,7 @@ Other FFT and NFP engines (antimatter, orion, etc.) are planned for future relea
 Search for "Overkill Plumes" in your CKAN client and install the mod as usual. CKAN will also flag FFT as a dependency if it isn't already installed, and install its dependencies as well.
 
 ### via SpaceDock/GitHub
-Download the latest ZIP from SpaceDock (or this repo's [Releases page](https://github.com/QuantumsHevy/OverkillPlumes/releases)), extract it, and drag ONLY the `OverkillPlumes` folder inside your KSP installation's `GameData` folder.
+Download the latest ZIP from [SpaceDock](https://spacedock.info/mod/4447/Overkill%20Plumes) (or this repo's [Releases page](https://github.com/QuantumsHevy/OverkillPlumes/releases)), extract it, and drag ONLY the `OverkillPlumes` folder inside your KSP installation's `GameData` folder.
 
 When done correctly, the path should look like this:
 ```
