@@ -3,7 +3,7 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 
 ## v0.1.0
 ### Added
-- Added (vaccum only) Overkill plumes for the X-42 'Niven' and the X-2 'Heinlein' NSWR Engines.
+- Added (vacuum only) Overkill plumes for the X-42 'Niven' and the X-2 'Heinlein' NSWR Engines.
 <!--
 ### Fixed
 - 
