@@ -8,20 +8,21 @@ Waterfall plume overrides for some Far Future Technologies engines that aim for 
 
 These mods are **required** for Overkill Plumes to run properly! You'll need to install each one (and their own dependencies) before installing this mod in order for it to work.
 
+- [Waterfall](https://github.com/KSPModStewards/Waterfall)
+  - Overkill plumes use the Waterfall framework itself to render engine effects.
+- [B9PartSwitch](https://github.com/blowfishpro/B9PartSwitch)
+  - Plume switches work through B9 modules.
+
+## Compatibilities
+These mods are **not required** for Overkill to run, but are currently supported through patches. Effectively, these are mods whose engines can also get Overkill plumes. 
+
 - [Far Future Technologies](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
-  - Overkill plumes are currrently only applied to a few of FFT's engines. It also ships both Waterfall and ModuleManager as its own dependencies.
-
-## Plumes
-
-As of v0.1.0, Overkill Plumes applies new engine plumes to only:
-- X-2 'Heinlein' Nuclear Salt Water Rocket Engine
-- x-42 'Niven' Nuclear Salt Water Rocket Engine
+  - X-2 'Heinlein' Nuclear Salt Water Rocket Engine
+  - x-42 'Niven' Nuclear Salt Water Rocket Engine
 
 ![A shot of the Heinlein's plume on the MITOS SS530 New Haven, burning full-throttle in low orbit of Eve.](Media/heinlein_new-haven.png)
 
 ![The MITOS SS557X Helltaker burning full throttle near Yunxaio.](Media/niven_helltaker_full-throttle.png)
-
-Other FFT and NFP engines (antimatter, orion, etc.) are planned for future releases.
 
 ## Installation
 
