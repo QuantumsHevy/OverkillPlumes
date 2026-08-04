@@ -3,7 +3,9 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 
 ## v0.2.0
 ### Added
-- Added a plume switcher to supported engines. Right-click the engine in the VAB/SPH (or in flight) to choose between the Overkill exhaust and the original plume. 
+- Added a plume switcher to supported engines. Right-click the engine in the VAB/SPH (or in flight) to choose between the Overkill exhaust and the original plume.
+- Added Overkill plumes for the LV-N 'Nerv' Atomic Rocket Motor, as well as for its ReStock variant and KerbalAtomics modes. 
+- Added Overkill plumes for the Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine and its ReStock variant.
 
 ## v0.1.0
 ### Added
