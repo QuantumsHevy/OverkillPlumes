@@ -1,6 +1,6 @@
 # Overkill Plumes
 
-Waterfall plumes for some Far Future Technologies engines that aim for stylistic and somewhat hard-sci-fi-accurate exhaust plumes. Mainly just ModuleManager patches and custom Waterfall templates.
+Switchable Waterfall configs for some rocket engines that aim for stylistic and somewhat hard-sci-fi-accurate exhaust plumes. Mainly just ModuleManager patches and homemade Waterfall templates.
 
 ![A distant shot of the Niven's plume burning low-throttle near Jinzha.](Media/niven_helltaker_distant.png)
 
@@ -9,7 +9,7 @@ Waterfall plumes for some Far Future Technologies engines that aim for stylistic
 These mods are **required** for Overkill Plumes to run properly! You'll need to install each one (and their own dependencies) before installing this mod in order for it to work.
 
 - [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects)
-  - Overkill plumes use the [Waterfall](https://github.com/KSPModStewards/Waterfall) framework itself to render engine effects. SWE also comes with [ModuleManager](https://github.com/sarbian/ModuleManager) and [B9PartSwitch](https://github.com/blowfishpro/B9PartSwitch) as dependencies, which Overkill also uses. 
+  - Plumes use the [Waterfall](https://github.com/KSPModStewards/Waterfall) framework itself to render engine effects. SWE also comes with [ModuleManager](https://github.com/sarbian/ModuleManager) and [B9PartSwitch](https://github.com/blowfishpro/B9PartSwitch) as dependencies, which Overkill also uses. 
 
 ## Compatibilities
 These mods are **not required** for Overkill to run, but are currently supported through patches. Effectively, these are mods whose engines can also get Overkill plumes. 
@@ -18,9 +18,11 @@ These mods are **not required** for Overkill to run, but are currently supported
   - X-2 'Heinlein' Nuclear Salt Water Rocket Engine
   - x-42 'Niven' Nuclear Salt Water Rocket Engine
 
-- Stock
+- Stock*
   - LV-N 'Nerv' Atomic Rocket Motor
   - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine
+
+<small>* Please see the *Known Issues* section.</small>
 
 ![A shot of the Heinlein's plume on the MITOS SS530 New Haven, burning full-throttle in low orbit of Eve.](Media/heinlein_new-haven.png)
 
@@ -49,6 +51,7 @@ KerbalSpaceProgram/
 
 ## Known Issues
 
+- On the stock Rhino, Overkill's plume switcher does not work correctly when ReStock is installed. On the stock Nerv, however, this only occurs when KerbalAtomics AND ReStock are both installed together; having ReStock installed by itself does not affect the Nerv's Overkill switcher. These specific patches are disabled for now due to a ModuleManager limitation, and will be revisited in a future update. All other supported installs are unaffected.
 - Added plumes don't react to atmosphere depth and only ever display vaccum-accurate plumes. This is intentional for the first releases and will be fixed in a future update.
 
 ## Credits
