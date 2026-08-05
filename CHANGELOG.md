@@ -6,6 +6,8 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 - Added a plume switcher to supported engines. Right-click the engine in the VAB/SPH (or in flight) to choose between the Overkill exhaust and the original plume.
 - Added Overkill plumes for the LV-N 'Nerv' Atomic Rocket Motor, as well as for its ReStock variant and KerbalAtomics modes. 
 - Added Overkill plumes for the Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine and its ReStock variant.
+### Issues
+- When ReStock is installed, Overkill plume throttle responses revert to SWE’s own values after SWE’s ReStock-specific patches rebuild the relevant Waterfall controllers. Switchers and scale/position still work correctly; the visible symptom is that plumes take noticeably longer to fade out after throttling down.
 
 ## v0.1.0
 ### Added
@@ -16,5 +18,7 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 ### Added
 - 
 ### Changed
+- 
+### Issues
 - 
 -->
