@@ -22,7 +22,7 @@ These mods are **not required** for Overkill to run, but are currently supported
   - LV-N 'Nerv' Atomic Rocket Motor
   - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine
 
-<small>* Please see the *Known Issues* section.</small>
+<small>* Please see the *[Known Issues](#known-issues)* section.</small>
 
 ![A shot of the Heinlein's plume on the MITOS SS530 New Haven, burning full-throttle in low orbit of Eve.](Media/heinlein_new-haven.png)
 
@@ -51,8 +51,13 @@ KerbalSpaceProgram/
 
 ## Known Issues
 
-- On the stock Rhino, Overkill's plume switcher does not work correctly when ReStock is installed. On the stock Nerv, however, this only occurs when KerbalAtomics AND ReStock are both installed together; having ReStock installed by itself does not affect the Nerv's Overkill switcher. These specific patches are disabled for now due to a ModuleManager limitation, and will be revisited in a future update. All other supported installs are unaffected.
+- When ReStock is installed, the Overkill plumes' throttle responses (their ramp-up and ramp-down rates) revert to SWE's own values instead of Overkill's. This is because SWE's ReStock-specific patches rebuild the relevant Waterfall controllers after Overkill's patches run. Switchers and their positions/scales still work correctly; the only symptom is the plumes taking noticeably longer to fade out after throttling down. This is low-impact, so it'll be revisited later. See issues [#2](https://github.com/QuantumsHevy/OverkillPlumes/issues/2) and [#3](https://github.com/QuantumsHevy/OverkillPlumes/issues/3).
+
 - Added plumes don't react to atmosphere depth and only ever display vaccum-accurate plumes. This is intentional for the first releases and will be fixed in a future update.
+
+<!--
+- KerbalAtomics compatibility is not currently supported. Separately, installing KerbalAtomics together with ReStock has been observed to cause the stock Nerv's LF mode to have no sound or visible plume despite functioning thrust. **This is a conflict between those two mods' own patches and is outside of Overkill's scope to fix.**
+-->
 
 ## Credits
 
