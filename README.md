@@ -18,11 +18,9 @@ These mods are **not required** for Overkill to run, but are currently supported
   - X-2 'Heinlein' Nuclear Salt Water Rocket Engine
   - x-42 'Niven' Nuclear Salt Water Rocket Engine
 
-- Stock*
+- Stock
   - LV-N 'Nerv' Atomic Rocket Motor
   - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine
-
-<small>* Please see the *[Known Issues](#known-issues)* section.</small>
 
 ![A shot of the Heinlein's plume on the MITOS SS530 New Haven, burning full-throttle in low orbit of Eve.](Media/heinlein_new-haven.png)
 
@@ -50,10 +48,11 @@ KerbalSpaceProgram/
 ```
 
 ## Known Issues
+<!--
+- With ReStock installed, Overkill plumes for stock engines have slower visual throttle up/down speeds, taking noticably longer to disappear after cutting throttle. This is only a cosmetic bug and has been compensated for. See [#2](https://github.com/QuantumsHevy/OverkillPlumes/issues/2) and [#3](https://github.com/QuantumsHevy/OverkillPlumes/issues/3) for more details on why this is happening.
+-->
 
-- When ReStock is installed, the Overkill plumes' throttle responses (their ramp-up and ramp-down rates) revert to SWE's own values instead of Overkill's. This is because SWE's ReStock-specific patches rebuild the relevant Waterfall controllers after Overkill's patches run. Switchers and their positions/scales still work correctly; the only symptom is the plumes taking noticeably longer to fade out after throttling down. This is low-impact, so it'll be revisited later. See issues [#2](https://github.com/QuantumsHevy/OverkillPlumes/issues/2) and [#3](https://github.com/QuantumsHevy/OverkillPlumes/issues/3).
-
-- Added plumes don't react to atmosphere depth and only ever display vaccum-accurate plumes. This is intentional for the first releases and will be fixed in a future update.
+- Overkill plumes don't react to atmosphere depth and only ever display vaccum-accurate plumes. This is intentional for the first releases, and atmosphere-accurate plumes will be added to all supported engines in a future update.
 
 <!--
 - KerbalAtomics compatibility is not currently supported. Separately, installing KerbalAtomics together with ReStock has been observed to cause the stock Nerv's LF mode to have no sound or visible plume despite functioning thrust. **This is a conflict between those two mods' own patches and is outside of Overkill's scope to fix.**
