@@ -48,12 +48,8 @@ KerbalSpaceProgram/
 ```
 
 ## Known Issues
-<!--
-- With ReStock installed, Overkill plumes for stock engines have slower visual throttle up/down speeds, taking noticably longer to disappear after cutting throttle. This is only a cosmetic bug and has been compensated for. See [#2](https://github.com/QuantumsHevy/OverkillPlumes/issues/2) and [#3](https://github.com/QuantumsHevy/OverkillPlumes/issues/3) for more details on why this is happening.
--->
 
 - Overkill plumes don't react to atmosphere depth and only ever display vaccum-accurate plumes. This is intentional for the first releases, and atmosphere-accurate plumes will be added to all supported engines in a future update.
-
 <!--
 - KerbalAtomics compatibility is not currently supported. Separately, installing KerbalAtomics together with ReStock has been observed to cause the stock Nerv's LF mode to have no sound or visible plume despite functioning thrust. **This is a conflict between those two mods' own patches and is outside of Overkill's scope to fix.**
 -->
