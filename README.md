@@ -8,8 +8,12 @@ Switchable Waterfall configs for some rocket engines that aim for stylistic and 
 
 These mods are **required** for Overkill Plumes to run properly! You'll need to install each one (and their own dependencies) before installing this mod in order for it to work.
 
-- [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects)
-  - Plumes use the [Waterfall](https://github.com/KSPModStewards/Waterfall) framework itself to render engine effects. SWE also comes with [ModuleManager](https://github.com/sarbian/ModuleManager) and [B9PartSwitch](https://github.com/blowfishpro/B9PartSwitch) as dependencies, which Overkill also uses. 
+- [Waterfall](https://github.com/KSPModStewards/Waterfall)
+  - 
+- [ModuleManager](https://github.com/sarbian/ModuleManager)
+  - 
+- [B9PartSwitch](https://github.com/blowfishpro/B9PartSwitch)
+  - 
 
 ## Compatibilities
 These mods are **not required** for Overkill to run, but are currently supported through patches. Effectively, these are mods whose engines can also get Overkill plumes. 
@@ -17,10 +21,13 @@ These mods are **not required** for Overkill to run, but are currently supported
 - [Far Future Technologies](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
   - X-2 'Heinlein' Nuclear Salt Water Rocket Engine
   - x-42 'Niven' Nuclear Salt Water Rocket Engine
+  - A-834M 'Frisbee' Antimatter Torch Engine (Compatible with [Interstellar Plumes](https://spacedock.info/mod/4110/Interstellar%20Plumes))
 
-- Stock
-  - LV-N 'Nerv' Atomic Rocket Motor
-  - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine
+- [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects)
+  - LV-N 'Nerv' Atomic Rocket Motor (Restock-aware)
+  - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine (Restock-aware)
+
+Every supported engine gets a plume switcher in their right-click menus. Most switchers also offer a faux-antimatter option for that little asthetic kick, alongside the Overkill and original plumes.
 
 ![A shot of the Heinlein's plume on the MITOS SS530 New Haven, burning full-throttle in low orbit of Eve.](Media/heinlein_new-haven.png)
 
@@ -30,6 +37,20 @@ These mods are **not required** for Overkill to run, but are currently supported
 
 ### via CKAN
 Search for "Overkill Plumes" in your CKAN client and install the mod as usual. CKAN will also flag any dependencies and install those as well.
+```
+depends:
+  - name: Waterfall
+  - name: ModuleManager
+  - name: B9PartSwitch
+reccomends:
+  - name: FarFutureTechnologies
+  - name: StockWaterfallEffects
+suggests:
+  - name: Restock
+  - name: RestockPlus
+conflicts:
+  - name: KerbalAtomics
+```
 
 ### via SpaceDock/GitHub
 Download the latest ZIP from [SpaceDock](https://spacedock.info/mod/4447/Overkill%20Plumes) (or [the GitHub repo's Releases page](https://github.com/QuantumsHevy/OverkillPlumes/releases)), extract it, and drag ONLY the `OverkillPlumes` folder inside your KSP installation's `GameData` folder.
@@ -49,10 +70,9 @@ KerbalSpaceProgram/
 
 ## Known Issues
 
-- Overkill plumes don't react to atmosphere depth and only ever display vaccum-accurate plumes. This is intentional for the first releases, and atmosphere-accurate plumes will be added to all supported engines in a future update.
-<!--
-- KerbalAtomics compatibility is not currently supported. Separately, installing KerbalAtomics together with ReStock has been observed to cause the stock Nerv's LF mode to have no sound or visible plume despite functioning thrust. **This is a conflict between those two mods' own patches and is outside of Overkill's scope to fix.**
--->
+- Overkill plumes don't react to atmosphere depth and only ever display vaccum-accurate plumes. This is intentional for the first releases and atmosphere-accurate plumes will be added to all supported engines in future updates.
+- When ReStock is installed, Stock Waterfall Effects reapplies its own patches after Overkill's, which resets Overkill's response-rate tuning back to SWE's defaults. Only how quickly the Overkill plumes react to throttle changes is affected. They still display and switch correctly, and it isn't really noticeable in normal play.
+- **KerbalAtomics conflicts with Overkill.** Installing it alongside ReStock causes the stock Nerv's LF mode to lose its sound and visible plume, despite functioning thrust. This is a conflict between KerbalAtomics' and ReStock's own patches, and is outside of Overkill's scope to fix.
 
 ## Credits
 
