@@ -1,8 +1,8 @@
 # Overkill Plumes
 
-Switchable configurations for some engines that aim for stylistic and somewhat hard-sci-fi-accurate exhaust plumes. Mainly just ModuleManager patches and homemade Waterfall templates.
+Switchable configurations for some Kerbal Space Program engines that aim to add stylistic and somewhat hard-sci-fi-accurate exhaust plumes. Mainly just ModuleManager patches and homemade Waterfall templates.
 
-![A distant shot of the Niven's plume burning low-throttle near Jinzha.](Media/niven_helltaker_distant.png)
+![The Nerv ARM's Overkill plume on a Starcatcher probe.](Media/nerv_starcatcher.png)
 
 ## Dependencies
 
@@ -29,17 +29,21 @@ These mods are **not required** for Overkill to run, but are currently supported
 
 Every supported engine gets a plume switcher in their right-click menus to return effects to their original looks. Most switchers also offer a faux-antimatter option for that additional asthetic kick.
 
-![A shot of the Heinlein's plume on the MITOS SS530 New Haven, burning full-throttle in low orbit of Eve.](Media/heinlein_new-haven.png)
+![The Heinlein NSWR's Overkill plume on the New Haven in IPV low orbit of Eve.](Media/heinlein_new-haven.png)
 
-![The MITOS SS557X Helltaker burning full throttle near Yunxaio.](Media/niven_helltaker_full-throttle.png)
+![The Rhino LFE's Overkill plume on an unnamed trans-munar vehicle.](Media/rhino_rear.png)
+
+![The Frisbee AE's Overkill plume on the Hypocrite ISV in low orbit of Moho.](Media/frisbee_hypocrite.png)
 
 ## Installation
 
 ### via CKAN
 A CKAN listing is actively being worked on. [Download via the SpaceDock link below](#via-spacedockgithub) for the latest actual release.
+
 <!--
 Search for "Overkill Plumes" in your CKAN client and install the mod as usual. CKAN will also flag any dependencies and install those as well.
 -->
+
 ```
 depends:
   - name: Waterfall
@@ -80,7 +84,7 @@ KerbalSpaceProgram/
 
 - **[Quantums Hevy](https://github.com/QuantumsHevy)**, original mod author
 
-![A detailed close-up of the Helltaker burning full throttle near Jinzha.](Media/niven_helltaker_close.png)
+![The Niven NSWR's Overkill plume on the Helltaker ISV in solar orbit of Yunxiao.](Media/niven_helltaker.png)
 
 ## License
 
