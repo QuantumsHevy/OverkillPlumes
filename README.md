@@ -27,7 +27,7 @@ These mods are **not required** for Overkill to run, but are currently supported
   - LV-N 'Nerv' Atomic Rocket Motor (Compatible with [Restock](https://github.com/PorktoberRevolution/ReStocked))
   - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine (Compatible with [Restock](https://github.com/PorktoberRevolution/ReStocked))
 
-Every supported engine gets a plume switcher in their right-click menus to return effects to their original looks. Most switchers also offer a faux-antimatter option for that additional asthetic kick.
+Every supported engine gets a plume switcher in their right-click menus to return effects to their original looks. Most switchers also offer a faux-antimatter option for that additional aesthetic kick.
 
 ![The Heinlein NSWR's Overkill plume on the New Haven in IPV low orbit of Eve.](Media/heinlein_new-haven.png)
 
@@ -78,7 +78,7 @@ KerbalSpaceProgram/
 
 ## Known Issues
 
-- Overkill plumes don't react to atmosphere depth and only ever display vaccum-accurate plumes. This is intentional for the first few releases, and atmosphere-accurate plumes will be added to all supported engines over the span of future updates.
+- Overkill plumes don't react to atmosphere depth and only ever display vacuum-accurate plumes. This is intentional for the first few releases, and atmosphere-accurate plumes will be added to all supported engines over the span of future updates.
 - **KerbalAtomics conflicts with Overkill Plumes.** Installing it alongside Restock and SWE causes the Nerv's LF mode to lose its sound and visible plume. This is a conflict between KerbalAtomics' and Restock's own patches, and is outside of Overkill's scope to fix.
 
 ## Credits
