@@ -7,7 +7,7 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 - Added an Overkill plume for the LV-N 'Nerv' Atomic Rocket Motor, including a Restock-aware patch.
 - Added an Overkill plume for the Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine, including a Restock-aware patch.
 - Added an Overkill plume for FFT's A-834M 'Frisbee' Antimatter Torch Engine, including an extra "ISV Venture Star" plume option if Interstellar Plumes is also installed.
-- Added a bit of original in-universe lore to several plume descriptions.
+- Added a bit of original in-universe lore to several plume descriptions (and some related, original flags).
 ### Changed
 - Waterfall, ModuleManager, and B9PartSwitch are now Overkill's core dependencies. Stock Waterfall Effects and Far Future Technologies are supported mods/compatibility layers, instead (SWE unlocks the stock Nerv and Rhino plumes, and FFT unlocks its own NSWR and Frisbee plumes).
 
