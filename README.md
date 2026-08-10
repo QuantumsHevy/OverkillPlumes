@@ -27,7 +27,7 @@ These mods are **not required** for Overkill to run, but are currently supported
   - LV-N 'Nerv' Atomic Rocket Motor (Compatible with [Restock](https://github.com/PorktoberRevolution/ReStocked))
   - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine (Compatible with [Restock](https://github.com/PorktoberRevolution/ReStocked))
 
-Every supported engine gets a plume switcher in their right-click menus. Most switchers also offer a faux-antimatter option for that little asthetic kick, alongside the Overkill and original plumes.
+Every supported engine gets a plume switcher in their right-click menus to return effects to their original looks. Most switchers also offer a faux-antimatter option for that additional asthetic kick.
 
 ![A shot of the Heinlein's plume on the MITOS SS530 New Haven, burning full-throttle in low orbit of Eve.](Media/heinlein_new-haven.png)
 
@@ -56,9 +56,9 @@ conflicts:
 ```
 
 ### via SpaceDock/GitHub
-Download the latest ZIP from [SpaceDock](https://spacedock.info/mod/4447/Overkill%20Plumes) (or [the GitHub repo's Releases page](https://github.com/QuantumsHevy/OverkillPlumes/releases)), extract it, and drag ONLY the `OverkillPlumes` folder inside your KSP installation's `GameData` folder. You can also simply extract the ZIP file directly into `GameData` using File Explorer's "Extract all" option.
+Download the latest ZIP from [SpaceDock](https://spacedock.info/mod/4447/Overkill%20Plumes) (or [the GitHub repo's Releases page](https://github.com/QuantumsHevy/OverkillPlumes/releases)) and simply extract the folder directly into your KSP installation's `GameData` folder using File Explorer's "Extract all" option. You may also extract the folder manually and place ONLY the `OverkillPlumes` folder inside `GameData`.
 
-When done correctly, the path should look like this:
+When done correctly, the path to the mod should look like this:
 ```
 KerbalSpaceProgram/
 └── GameData/
@@ -74,7 +74,6 @@ KerbalSpaceProgram/
 ## Known Issues
 
 - Overkill plumes don't react to atmosphere depth and only ever display vaccum-accurate plumes. This is intentional for the first few releases, and atmosphere-accurate plumes will be added to all supported engines over the span of future updates.
-- When ReStock is installed, the throttle response rates for the Nerv and Rhino are repeatedly set to comparatively low values. This is because of a patch order that rebuilds SWE's Waterfall modules after all of Overkill's edits, and they cannot reliably be overwritten again without employing some questionable ModuleManager practices. A fix is shelved for now.
 - **KerbalAtomics conflicts with Overkill Plumes.** Installing it alongside Restock and SWE causes the Nerv's LF mode to lose its sound and visible plume. This is a conflict between KerbalAtomics' and Restock's own patches, and is outside of Overkill's scope to fix.
 
 ## Credits
