@@ -20,7 +20,7 @@ These mods are **not required** for Overkill to run, but are currently supported
 
 - [Far Future Technologies](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
   - X-2 'Heinlein' Nuclear Salt Water Rocket Engine
-  - x-42 'Niven' Nuclear Salt Water Rocket Engine
+  - X-42 'Niven' Nuclear Salt Water Rocket Engine
   - A-834M 'Frisbee' Antimatter Torch Engine (Compatible with [Interstellar Plumes](https://spacedock.info/mod/4110/Interstellar%20Plumes))
 
 - [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects)
@@ -67,6 +67,7 @@ When done correctly, the path to the mod should look like this:
 KerbalSpaceProgram/
 └── GameData/
     ├── OverkillPlumes/
+    ├── ├── Flags/
     │   ├── FX/
     │   ├── Patches/
     │   └── ...
