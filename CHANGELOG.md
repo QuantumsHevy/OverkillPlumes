@@ -1,6 +1,13 @@
 # Changelog
 All notable user-facing changes to Overkill Plumes are documented in this file. This mod is compatible with Kerbal Space Program 1.12 unless noted otherwise. Version numbers should follow semantic versioning.
 
+## v0.3.0
+### Added
+- Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' IPE-GC 'Slim', including a [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.
+- Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' IPE-GC 'Tiny', including a [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.
+### Changed
+- Changed included flags to add polish and fix distortions.
+
 ## v0.2.0
 ### Added
 - Added a plume switcher to every supported engine. Right-click the engine in the VAB/SPH (or in flight) to choose between the Overkill exhaust and the original plume.

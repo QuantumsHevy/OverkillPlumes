@@ -23,6 +23,10 @@ These mods are **not required** for Overkill to run, but are currently supported
   - X-42 'Niven' Nuclear Salt Water Rocket Engine
   - A-834M 'Frisbee' Antimatter Torch Engine (Compatible with [Interstellar Plumes](https://spacedock.info/mod/4110/Interstellar%20Plumes))
 
+- [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)
+  - Sterling IPE-GC 'Slim'
+  - Sterling IPE-GC 'Tiny'
+
 - [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects)
   - LV-N 'Nerv' Atomic Rocket Motor (Compatible with [Restock](https://github.com/PorktoberRevolution/ReStocked))
   - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine (Compatible with [Restock](https://github.com/PorktoberRevolution/ReStocked))
