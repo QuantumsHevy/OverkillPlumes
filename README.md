@@ -55,6 +55,7 @@ depends:
   - name: B9PartSwitch
 reccomends:
   - name: FarFutureTechnologies
+  - name: SterlingSystemsEnginesFission
   - name: StockWaterfallEffects
 suggests:
   - name: Restock
