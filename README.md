@@ -1,101 +1,71 @@
 # Overkill Plumes
 
+> "Ever since MITOS broke the light barrier, their engineers have been chasing every little wild idea that the new physics allows..."
+
 Switchable configurations for some Kerbal Space Program engines that aim to add stylistic and somewhat hard-sci-fi-accurate exhaust plumes. Mainly just ModuleManager patches and homemade Waterfall templates.
 
 ![The Nerv ARM's Overkill plume on a Starcatcher probe.](Media/nerv_starcatcher.png)
 
 ## Dependencies
+Overkill requires these mods in order to run as intended.
 
-These mods are **required** for Overkill Plumes to run properly. You'll need to install each one (and their own dependencies) before installing Overkill in order for it to work.
-
-- [Waterfall](https://github.com/KSPModStewards/Waterfall)
-  - The Waterfall effects framework is used to render custom engine plumes.
 - [ModuleManager](https://github.com/sarbian/ModuleManager)
-  - Effects are applied to parts using ModuleManager patches.
+- [Waterfall](https://github.com/KSPModStewards/Waterfall)
 - [B9PartSwitch](https://github.com/blowfishpro/B9PartSwitch)
-  - In-game plume switches are created using B9PartSwitch modules.
 
 ## Compatibilities
-These mods are **not required** for Overkill to run, but are currently supported through patches. Effectively, these are mods whose engines can get Overkill plumes. 
+Patches that add compatibility with these mods are included with installation. Effectively, these are mods whose engines can get Overkill plumes. 
 
 - [Far Future Technologies](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
   - X-2 'Heinlein' Nuclear Salt Water Rocket Engine
   - X-42 'Niven' Nuclear Salt Water Rocket Engine
   - A-834M 'Frisbee' Antimatter Torch Engine (Compatible with [Interstellar Plumes](https://spacedock.info/mod/4110/Interstellar%20Plumes))
-
 - [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)
   - Sterling IPE-GC 'Slim'
   - Sterling IPE-GC 'Tiny'
-
-- [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects)
-  - LV-N 'Nerv' Atomic Rocket Motor (Compatible with [Restock](https://github.com/PorktoberRevolution/ReStocked))
-  - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine (Compatible with [Restock](https://github.com/PorktoberRevolution/ReStocked))
+- [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects) (Compatible with [Restock](https://github.com/PorktoberRevolution/ReStocked))
+  - LV-N 'Nerv' Atomic Rocket Motor
+  - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine
 
 Every supported engine gets a plume switcher in their right-click menus to return effects to their original looks. Most switchers also offer a faux-antimatter option for that additional aesthetic kick.
 
 ![The Heinlein NSWR's Overkill plume on the New Haven in IPV low orbit of Eve.](Media/heinlein_new-haven.png)
 
-![The Rhino LFE's Overkill plume on an unnamed trans-munar vehicle.](Media/rhino_rear.png)
-
-![The Frisbee AE's Overkill plume on the Hypocrite ISV in low orbit of Moho.](Media/frisbee_hypocrite.png)
-
 ## Installation
+Download the latest ZIP from [SpaceDock](https://spacedock.info/mod/4447/Overkill%20Plumes) and extract the folder directly into your installation's `GameData` folder using File Explorer's "Extract all" option.
 
-### via CKAN
-A CKAN listing is actively being worked on. [Download via the SpaceDock link below](#via-spacedockgithub) for the latest actual release.
+You may also extract the folder manually and place ONLY the parent `OverkillPlumes` folder inside `GameData`.
+
+This mod is also available to install via CKAN.
 
 <!--
-Search for "Overkill Plumes" in your CKAN client and install the mod as usual. CKAN will also flag any dependencies and install those as well.
--->
-
-```
-depends:
-  - name: Waterfall
-  - name: ModuleManager
-  - name: B9PartSwitch
-reccomends:
-  - name: FarFutureTechnologies
-  - name: SterlingSystemsEnginesFission
-  - name: StockWaterfallEffects
-suggests:
-  - name: Restock
-  - name: RestockPlus
-conflicts:
-  - name: KerbalAtomics
-```
-
-### via SpaceDock/GitHub
-Download the latest ZIP from [SpaceDock](https://spacedock.info/mod/4447/Overkill%20Plumes) (or [the GitHub repo's Releases page](https://github.com/QuantumsHevy/OverkillPlumes/releases)) and simply extract the folder directly into your KSP installation's `GameData` folder using File Explorer's "Extract all" option. You may also extract the folder manually and place ONLY the `OverkillPlumes` folder inside `GameData`.
-
 When done correctly, the path to the mod should look like this:
 ```
 KerbalSpaceProgram/
 └── GameData/
     ├── OverkillPlumes/
-    ├── ├── Flags/
+    │   ├── Flags/
     │   ├── FX/
-    │   ├── Patches/
     │   └── ...
     ├── Squad/
     ├── YourOtherMods/
     └── ...
 ```
+-->
 
 ## Known Issues
+- Overkill's plumes don't react to atmosphere depth and only ever display vacuum-accurate plumes. This is intentional for the first few releases, and atmosphere-accurate plumes will be added to all supported engines over the span of future updates.
 
-- Overkill plumes don't react to atmosphere depth and only ever display vacuum-accurate plumes. This is intentional for the first few releases, and atmosphere-accurate plumes will be added to all supported engines over the span of future updates.
 - **KerbalAtomics conflicts with Overkill Plumes.** Installing it alongside Restock and SWE causes the Nerv's LF mode to lose its sound and visible plume. This is a conflict between KerbalAtomics' and Restock's own patches, and is outside of Overkill's scope to fix.
 
 ## Credits
-
 - **[Quantums Hevy](https://github.com/QuantumsHevy)**, original mod author
 
 ![The Niven NSWR's Overkill plume on the Helltaker ISV in solar orbit of Yunxiao.](Media/niven_helltaker.png)
 
 ## License
-
 Copyright © 2026 Quantums Hevy
 
 This work is licensed under the [GNU General Public License v3.0.](./COPYING) (GPL-3.0). 
 
-This project contains patches and configuration files intended for use with other third-party Kerbal Space Program mods. No ownership of those other projects or their assets is claimed, and nothing in this repository alters or supersedes their respective licenses.
+This project contains configuration files intended for use with other third-party Kerbal Space Program mods. No ownership of those other projects or their assets is claimed by Overkill Plumes, and nothing in this repository alters or supersedes their respective or associated licenses.
