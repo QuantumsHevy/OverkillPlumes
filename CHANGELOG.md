@@ -2,6 +2,8 @@
 All notable user-facing changes to Overkill Plumes are documented in this file. This mod is compatible with Kerbal Space Program 1.12 unless noted otherwise. Version numbers should follow semantic versioning.
 
 ## v0.3.0
+### Fixed
+- Improved compatibility with [KerbalAtomics](https://github.com/post-kerbin-mining-corporation/KerbalAtomics). The Nerv's plume switcher now explicitly targets the engine's LH2 mode.
 ### Added
 - Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' IPE-GC 'Slim', including a [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.
 - Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' IPE-GC 'Tiny', including a [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.

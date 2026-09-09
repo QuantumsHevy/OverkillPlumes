@@ -54,9 +54,9 @@ KerbalSpaceProgram/
 -->
 
 ## Known Issues
-- Overkill's plumes don't react to atmosphere depth and only ever display vacuum-accurate plumes. This is intentional for the first few releases, and atmosphere-accurate plumes will be added to all supported engines over the span of future updates.
+- Overkill plumes don't react to atmosphere depth and only display vacuum-accurate plumes. This is intentional for the first few releases, and atmosphere-accurate plumes will be added to all supported engines over the span of future updates.
 
-- **KerbalAtomics conflicts with Overkill Plumes.** Installing it alongside Restock and SWE causes the Nerv's LF mode to lose its sound and visible plume. This is a conflict between KerbalAtomics' and Restock's own patches, and is outside of Overkill's scope to fix.
+- [KerbalAtomics](https://github.com/post-kerbin-mining-corporation/KerbalAtomics) compatibility: The plume switcher (including the faux-antimatter option) only works correctly when the Nerv is in LH2 mode. Selecting the LF mode makes it fall back to KerbalAtomics' own particle effects with no Waterfall effects at all. If Restock is installed on top of this, the engine loses its effects entirely when in LF mode. This is a conflict between KerbalAtomics and Stock Waterfall Effects/Restock, and is currently outside of Overkill's scope to handle.
 
 ## Credits
 - **[Quantums Hevy](https://github.com/QuantumsHevy)**, original mod author
