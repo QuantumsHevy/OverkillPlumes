@@ -26,6 +26,8 @@ Patches that add compatibility with these mods are included with installation. E
 - [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects) (Compatible with [Restock](https://github.com/PorktoberRevolution/ReStocked))
   - LV-N 'Nerv' Atomic Rocket Motor
   - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine
+  - T-1 Toroidal Aerospike 'Dart' Liquid Fuel Engine
+  - Mk-55 'Thud' Liquid Fuel Engine
 
 Every supported engine gets a plume switcher in their right-click menus to return effects to their original looks. Most switchers also offer a faux-antimatter option for that additional aesthetic kick.
 

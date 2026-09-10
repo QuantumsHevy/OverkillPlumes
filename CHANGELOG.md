@@ -7,6 +7,8 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 ### Added
 - Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' IPE-GC 'Slim', including a [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.
 - Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' IPE-GC 'Tiny', including a [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.
+- Added an Overkill plume for the T-1 Toroidal Aerospike 'Dart' Liquid Fuel Engine, including a [Restock](https://github.com/PorktoberRevolution/ReStocked)-aware patch.
+- Added an Overkill plume for the Mk-55 'Thud' Liquid Fuel Engine.
 ### Changed
 - Changed included flags to add polish and fix distortions.
 
