@@ -3,7 +3,8 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 
 ## v0.3.0
 ### Fixed
-- Improved compatibility with [KerbalAtomics](https://github.com/post-kerbin-mining-corporation/KerbalAtomics). The Nerv's plume switcher now explicitly targets the engine's LH2 mode.
+- Improved compatibility with [KerbalAtomics](https://github.com/post-kerbin-mining-corporation/KerbalAtomics). The Nerv's plume switcher now explicitly targets the engine's LH2 mode and leaves upstream bugs for upstream to deal with.
+- Fixed inconsistent colors for the faux-antimatter option across some plume switches. 
 ### Added
 - Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' IPE-GC 'Slim', including a [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.
 - Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' IPE-GC 'Tiny', including a [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.
