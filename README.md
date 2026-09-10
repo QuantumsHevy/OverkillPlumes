@@ -23,6 +23,7 @@ Patches that add compatibility with these mods are included with installation. E
 - [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)
   - Sterling IPE-GC 'Slim'
   - Sterling IPE-GC 'Tiny'
+  - Sterling ISME-BC 'Immolator'
 - [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects) (Compatible with [Restock](https://github.com/PorktoberRevolution/ReStocked))
   - LV-N 'Nerv' Atomic Rocket Motor
   - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine
