@@ -13,6 +13,7 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 - Added an Overkill plume for the Mk-55 'Thud' Liquid Fuel Engine.
 ### Changed
 - Changed included flags to add polish and fix distortions.
+- Updated the Overkill plume for the X-2 'Heinlein' Nuclear Salt Water Rocket Engine.
 
 ## v0.2.0
 ### Added
