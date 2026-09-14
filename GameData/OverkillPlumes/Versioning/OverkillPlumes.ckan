@@ -1,0 +1,6 @@
+recommends:
+  - name: SterlingSystemsEnginesFission
+  - name: SterlingSystemsEnginesAntimatter
+supports:
+  - name: SterlingSystemsEnginesFission
+  - name: SterlingSystemsEnginesAntimatter
