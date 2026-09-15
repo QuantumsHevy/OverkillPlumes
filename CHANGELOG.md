@@ -13,7 +13,12 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 - Added an Overkill plume for the Mk-55 'Thud' Liquid Fuel Engine.
 ### Changed
 - Changed included flags to add polish and fix distortions.
-- Updated the Overkill plume for the X-2 'Heinlein' Nuclear Salt Water Rocket Engine.
+- Updated the Overkill plumes for:
+    - X-2 'Heinlein' Nuclear Salt Water Rocket Engine
+    - X-42 'Niven' Nuclear Salt Water Rocket Engine
+    - All supported hydrolox engines (Rhino, Dart, & Thud)
+    - All supported nuclear-hydrogen engines (Nerv, Slim, & Tiny)
+    - All supported antimatter beam engines (Frisbee & Immolator)
 
 ## v0.2.0
 ### Added
