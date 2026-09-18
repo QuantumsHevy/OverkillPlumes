@@ -23,7 +23,7 @@ Patches that add compatibility with these mods are included with installation. E
 - [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)
   - Sterling IPE-GC 'Slim'
   - Sterling IPE-GC 'Tiny'
-  - Sterling ISME-BC 'Immolator'
+  - Sterling ISME-BC 'Immolator' (Compatible with [Interstellar Plumes](https://spacedock.info/mod/4110/Interstellar%20Plumes))
 - [Stock Waterfall Effects](https://github.com/KnightofStJohn/StockWaterfallEffects) (Compatible with [Restock](https://github.com/PorktoberRevolution/ReStocked))
   - LV-N 'Nerv' Atomic Rocket Motor
   - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine
@@ -35,11 +35,11 @@ Every supported engine gets a plume switcher in their right-click menus to retur
 ![The Heinlein NSWR's Overkill plume on the New Haven in IPV low orbit of Eve.](Media/heinlein_new-haven.png)
 
 ## Installation
+As of September 5th, 2026, this mod is available to install via CKAN.
+
 Download the latest ZIP from [SpaceDock](https://spacedock.info/mod/4447/Overkill%20Plumes) and extract the folder directly into your installation's `GameData` folder using File Explorer's "Extract all" option.
 
 You may also extract the folder manually and place ONLY the parent `OverkillPlumes` folder inside `GameData`.
-
-This mod is also available to install via CKAN.
 
 <!--
 When done correctly, the path to the mod should look like this:

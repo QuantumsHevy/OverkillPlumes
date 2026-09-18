@@ -3,22 +3,23 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 
 ## v0.3.0
 ### Fixed
-- Improved compatibility with [KerbalAtomics](https://github.com/post-kerbin-mining-corporation/KerbalAtomics). The Nerv's plume switcher now explicitly targets the engine's LH2 mode and leaves upstream bugs for upstream to deal with.
+- Improved compatibility with [KerbalAtomics](https://github.com/post-kerbin-mining-corporation/KerbalAtomics). The Nerv's plume switcher now explicitly targets the engine's LH2 mode.
+- Improved compatibility with [Restock Waterfall Expansion](https://spacedock.info/mod/3149/Restock%20Waterfall%20Expansion) and [Waterfall - Restock](https://github.com/post-kerbin-mining-corporation/WaterfallRestock). Duplicate and missing modules created by Overkill Plumes should no longer break plume switchers if those mods are also installed.
 - Fixed inconsistent colors for the faux-antimatter option across some plume switches. 
 ### Added
-- Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' IPE-GC 'Slim', including a [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.
-- Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' IPE-GC 'Tiny', including a [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.
-- Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' ISME-BC 'Immolator', including a [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.
+- Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' IPE-GC 'Slim', including an [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.
+- Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' IPE-GC 'Tiny', including an [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware patch.
+- Added an Overkill plume and switcher for [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)' ISME-BC 'Immolator', including [SWE](https://github.com/KnightofStJohn/StockWaterfallEffects)-aware and [Interstellar Plumes](https://spacedock.info/mod/4110/Interstellar%20Plumes)-aware patches.
 - Added an Overkill plume for the T-1 Toroidal Aerospike 'Dart' Liquid Fuel Engine, including a [Restock](https://github.com/PorktoberRevolution/ReStocked)-aware patch.
 - Added an Overkill plume for the Mk-55 'Thud' Liquid Fuel Engine.
 ### Changed
-- Changed included flags to add polish and fix distortions.
+- Updated the included flags to add polish and fix any distortions.
 - Updated the Overkill plumes for:
-    - X-2 'Heinlein' Nuclear Salt Water Rocket Engine
-    - X-42 'Niven' Nuclear Salt Water Rocket Engine
+    - All supported NSWR engines (Heinlein & Niven)
     - All supported hydrolox engines (Rhino, Dart, & Thud)
     - All supported nuclear-hydrogen engines (Nerv, Slim, & Tiny)
     - All supported antimatter beam engines (Frisbee & Immolator)
+- Updated the flavor text for all plume switchers.
 
 ## v0.2.0
 ### Added
