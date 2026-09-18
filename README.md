@@ -1,6 +1,6 @@
 # Overkill Plumes
 
-> "Ever since MITOS broke the light barrier, their engineers have been chasing every little wild idea that the new physics allows..."
+> "To be the first to enter the cosmos. To engage, single-handed, in an unprecedented duel with nature. Could one dream of anything more?" — Yuri Gagarin, *Road to the Stars (1961)*
 
 Switchable configurations for some Kerbal Space Program engines that aim to add stylistic and somewhat hard-sci-fi-accurate exhaust plumes. Mainly just ModuleManager patches and homemade Waterfall templates.
 
