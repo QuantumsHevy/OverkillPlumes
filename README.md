@@ -4,7 +4,7 @@
 
 Switchable configurations for some Kerbal Space Program engines that aim to add stylistic and somewhat hard-sci-fi-accurate exhaust plumes. Mainly just ModuleManager patches and homemade Waterfall templates.
 
-![The Nerv ARM's Overkill plume on a Starcatcher probe.](Media/nerv_starcatcher.png)
+![ISV Harbinger in low orbit of Minmus.](Media/frisbee_close.png)
 
 ## Dependencies
 Overkill requires these mods in order to run as intended.
@@ -32,10 +32,12 @@ Patches that add compatibility with these mods are included with installation. E
 
 Every supported engine gets a plume switcher in their right-click menus to return effects to their original looks. Most switchers also offer a faux-antimatter option for that additional aesthetic kick.
 
-![The Heinlein NSWR's Overkill plume on the New Haven in IPV low orbit of Eve.](Media/heinlein_new-haven.png)
+![The plume switcher for the Heinlein NSWR in the SPH.](Media/heinlein_plume-switch.png)
+
+![IPV New Haven in low orbit of Eve.](Media/heinlein_far.png)
 
 ## Installation
-As of September 5th, 2026, this mod is available to install via CKAN.
+This mod is available to install via CKAN as of September 5th, 2026.
 
 Download the latest ZIP from [SpaceDock](https://spacedock.info/mod/4447/Overkill%20Plumes) and extract the folder directly into your installation's `GameData` folder using File Explorer's "Extract all" option.
 
@@ -64,7 +66,7 @@ KerbalSpaceProgram/
 ## Credits
 - **[Quantums Hevy](https://github.com/QuantumsHevy)**, original mod author
 
-![The Niven NSWR's Overkill plume on the Helltaker ISV in solar orbit of Yunxiao.](Media/niven_helltaker.png)
+![Turtleneck I in low orbit of Kerbin.](Media/dart_far.png)
 
 ## License
 Copyright © 2026 Quantums Hevy
