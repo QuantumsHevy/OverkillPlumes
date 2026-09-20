@@ -1,6 +1,6 @@
 # Overkill Plumes
 
-> "To be the first to enter the cosmos. To engage, single-handed, in an unprecedented duel with nature. Could one dream of anything more?" — Yuri Gagarin, *Road to the Stars (1961)*
+> "To be the first to enter the cosmos. To engage, single-handed, in an unprecedented duel with nature. Could one dream of anything more?" — Yuri Gagarin
 
 Switchable configurations for some Kerbal Space Program engines that aim to add stylistic and somewhat hard-sci-fi-accurate exhaust plumes. Mainly just ModuleManager patches and homemade Waterfall templates.
 
@@ -73,4 +73,4 @@ Copyright © 2026 Quantums Hevy
 
 This work is licensed under the [GNU General Public License v3.0.](./COPYING) (GPL-3.0). 
 
-This project contains configuration files intended for use with other third-party Kerbal Space Program mods. No ownership of those other projects or their assets is claimed by Overkill Plumes, and nothing in this repository alters or supersedes their respective or associated licenses.
+This project primarily contains configuration files intended for use with other third-party Kerbal Space Program mods. No ownership of those other projects or their assets is claimed by Overkill Plumes, and nothing in this repository alters or supersedes their respective or associated licenses.
