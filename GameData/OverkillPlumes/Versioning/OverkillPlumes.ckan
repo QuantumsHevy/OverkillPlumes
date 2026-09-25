@@ -1,6 +1,20 @@
+depends:
+  - name: ModuleManager
+  - name: Waterfall
+  - name: B9PartSwitch
 recommends:
+  - name: FarFutureTechnologies
+  - name: StockWaterfallEffects
   - name: SterlingSystemsEnginesFission
   - name: SterlingSystemsEnginesAntimatter
 supports:
+  - name: FarFutureTechnologies
+  - name: StockWaterfallEffects
   - name: SterlingSystemsEnginesFission
   - name: SterlingSystemsEnginesAntimatter
+suggests:
+  - name: ReStock
+  - name: ReStockPlus
+  - name: SterlingSystemsThermals
+  - name: ZTheme
+  - name: SpinDrive
