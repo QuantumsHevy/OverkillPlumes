@@ -19,6 +19,7 @@ Patches that add compatibility with these mods are included with installation. E
 - [Far Future Technologies](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
   - X-2 'Heinlein' Nuclear Salt Water Rocket Engine
   - X-42 'Niven' Nuclear Salt Water Rocket Engine
+  - X-12 'Hamilton' Nuclear Pulse Engine
   - A-834M 'Frisbee' Antimatter Torch Engine (Compatible with [Interstellar Plumes](https://spacedock.info/mod/4110/Interstellar%20Plumes))
 - [Sterling Systems](https://github.com/JadeOfMaar/SterlingSystems)
   - Sterling IPE-GC 'Slim'

@@ -1,6 +1,10 @@
 # Changelog
 All notable user-facing changes to Overkill Plumes are documented in this file. This mod is compatible with Kerbal Space Program 1.12 unless noted otherwise. Version numbers should follow semantic versioning.
 
+## v0.4.0
+### Added
+- Added an Overkill plume and switcherfor [Far Future Technologies](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)' X-12 'Hamilton' Nuclear Pulse Engine.
+
 ## v0.3.0
 ### Fixed
 - Improved compatibility with [KerbalAtomics](https://github.com/post-kerbin-mining-corporation/KerbalAtomics). The Nerv's plume switcher now explicitly targets the engine's LH2 mode.
