@@ -1,6 +1,3 @@
-tags:
-  - config
-  - graphics
 depends:
   - name: ModuleManager
   - name: Waterfall
