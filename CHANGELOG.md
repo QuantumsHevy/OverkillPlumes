@@ -3,7 +3,8 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 
 ## v0.4.0
 ### Added
-- Added an Overkill plume and switcherfor [Far Future Technologies](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)' X-12 'Hamilton' Nuclear Pulse Engine.
+- Added an Overkill plume and switcher for [Far Future Technologies](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)' X-12 'Hamilton' Nuclear Pulse Engine.
+- Added an Overkill plume for the S3 KS-25 'Vector' Liquid Fuel Engine, including a [Restock](https://github.com/PorktoberRevolution/ReStocked)-aware patch.
 
 ## v0.3.0
 ### Fixed

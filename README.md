@@ -30,6 +30,7 @@ Patches that add compatibility with these mods are included with installation. E
   - Kerbodyne KR-2L+ 'Rhino' Liquid Fuel Engine
   - T-1 Toroidal Aerospike 'Dart' Liquid Fuel Engine
   - Mk-55 'Thud' Liquid Fuel Engine
+  - S3 KS-25 'Vector' Liquid Fuel Engine
 
 Every supported engine gets a plume switcher in their right-click menus to return effects to their original looks. Most switchers also offer a faux-antimatter option for that additional aesthetic kick.
 
