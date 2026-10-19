@@ -7,6 +7,7 @@ Switchable configurations for some Kerbal Space Program engines that aim to add 
 ![ISV Harbinger in low orbit of Minmus.](Media/frisbee_close.png)
 
 ## Dependencies
+
 Overkill requires these mods in order to run as intended.
 
 - [ModuleManager](https://github.com/sarbian/ModuleManager)
@@ -14,7 +15,8 @@ Overkill requires these mods in order to run as intended.
 - [B9PartSwitch](https://github.com/blowfishpro/B9PartSwitch)
 
 ## Compatibilities
-Patches that add compatibility with these mods are included with installation. Effectively, these are mods whose engines can get Overkill plumes. 
+
+Patches that add compatibility with these mods are included with installation. Effectively, these are mods whose engines can get Overkill plumes.
 
 - [Far Future Technologies](https://github.com/post-kerbin-mining-corporation/FarFutureTechnologies)
   - X-2 'Heinlein' Nuclear Salt Water Rocket Engine
@@ -39,6 +41,7 @@ Every supported engine gets a plume switcher in their right-click menus to retur
 ![IPV New Haven in low orbit of Eve.](Media/heinlein_far.png)
 
 ## Installation
+
 This mod is available to install via CKAN as of September 5th, 2026.
 
 Download the latest ZIP from [SpaceDock](https://spacedock.info/mod/4447/Overkill%20Plumes) and extract the folder directly into your installation's `GameData` folder using File Explorer's "Extract all" option.
@@ -61,19 +64,22 @@ KerbalSpaceProgram/
 -->
 
 ## Known Issues
+
 - Overkill plumes don't react to atmosphere depth and only display vacuum-accurate plumes. This is intentional for the first few releases, and atmosphere-accurate plumes will be added to all supported engines over the span of future updates.
 
 - [KerbalAtomics](https://github.com/post-kerbin-mining-corporation/KerbalAtomics) compatibility: The plume switcher (including the faux-antimatter option) only works correctly when the Nerv is in LH2 mode. Selecting the LF mode makes it fall back to KerbalAtomics' own particle effects with no Waterfall effects at all. If Restock is installed on top of this, the engine loses its effects entirely when in LF mode. This is a conflict between KerbalAtomics and Stock Waterfall Effects/Restock, and is currently outside of Overkill's scope to handle.
 
 ## Credits
+
 - **[Quantums Hevy](https://github.com/QuantumsHevy)**, original mod author
 
 ![Turtleneck I in low orbit of Kerbin.](Media/dart_far.png)
 
 ## License
+
 Copyright © 2026 Quantums Hevy
 
-This work is licensed under the [GNU General Public License v3.0.](./COPYING) (GPL-3.0). 
+This work is licensed under the [GNU General Public License v3.0.](./COPYING) (GPL-3.0).
 
 ![Not By AI badge](Media/Developed-By-a-Human-Not-By-AI-Badge-white.png)
 
