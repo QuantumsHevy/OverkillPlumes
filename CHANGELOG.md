@@ -2,6 +2,12 @@
 
 All notable user-facing changes to Overkill Plumes are documented in this file. This mod is compatible with Kerbal Space Program 1.12 unless noted otherwise. Version numbers should follow semantic versioning.
 
+## v0.4.1
+
+### Fixed
+
+- Improved compatibility with [TweakScale Rescaled](https://github.com/JonnyOThan/TweakScale). Versions older than 3.3.0 can reset or distort switched plumes (or throw errors) because of a bug in their Waterfall add-on. CKAN should now flag those versions as conflicting with Overkill Plumes.
+
 ## v0.4.0
 
 ### Added
