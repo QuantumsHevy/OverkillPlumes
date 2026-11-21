@@ -7,6 +7,7 @@ All notable user-facing changes to Overkill Plumes are documented in this file. 
 ### Fixed
 
 - Improved compatibility with [TweakScale Rescaled](https://github.com/JonnyOThan/TweakScale). Versions older than 3.3.0 can reset or distort switched plumes (or throw errors) because of a bug in their Waterfall add-on. CKAN should now flag those versions as conflicting with Overkill Plumes.
+- Fixed log spam and missing randomness from mismatched randomness controller names in the Waterfall templates.
 
 ## v0.4.0
 
