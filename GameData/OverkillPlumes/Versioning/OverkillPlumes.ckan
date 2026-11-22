@@ -18,4 +18,4 @@ suggests:
   - name: ZTheme
 conflicts:
   - name: TweakScaleRescaled
-    max_version: '3.2.4'
+    max_version: 3.2.4
