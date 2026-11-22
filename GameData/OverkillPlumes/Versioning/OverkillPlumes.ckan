@@ -16,3 +16,6 @@ suggests:
   - name: ReStock
   - name: ReStockPlus
   - name: ZTheme
+conflicts:
+  - name: TweakScaleRescaled
+    max_version: 3.2.4
